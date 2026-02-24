@@ -28,7 +28,7 @@ public class PhdStudent extends Student {
   }
 
   public String toString() {
-    String res = super.toString() + " - PHD student; ID: " + this.studentId + "; department: " + this.department + "; courses: " + String.join(", ", this.courses);
+    String res = super.toString() + "; PHD; department: " + this.department + "; courses: " + String.join(", ", this.courses);
     return res;
   }
 
